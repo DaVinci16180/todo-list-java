@@ -24,7 +24,7 @@ Desenvolver uma aplicação que auxilie na organização das tarefas diárias de
 
 ## Classes-entidade
 
-![diagrama-de-classes](https://user-images.githubusercontent.com/42824985/160261702-0e8c75bb-0e7c-4d08-836f-eaa9932849eb.png)
+![diagrama-de-classes](https://user-images.githubusercontent.com/42824985/160262460-16d9ac78-bcad-44f9-907b-fd118b3f900d.png)
 
 ## Wireframe das telas
 
