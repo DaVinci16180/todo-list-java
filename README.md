@@ -2,8 +2,7 @@
 
 ## Contextualização do domínio
 
-A vida das pessoas anda cada vez mais corrida e ela ficam cada vez mais atarefadas. Nesse contexto surge a necessidade de ferramentas que auxiliem 
-na organização de tarefas e aumento da produtividade. 
+A vida das pessoas anda cada vez mais corrida e elas ficam cada vez mais atarefadas. Nesse contexto surge a necessidade de métodos que auxiliem na organização de tarefas e aumento da produtividade. No entanto, alguns métodos, embora pareçam práticos, podem se mostrar ineficazes por se tornarem eles mesmos causa de desorganização, seja por excesso de papel ou por uma curva de aprendizado longa. É para resolver esses problemas que entra a necessidade de uma aplicação simples que faça tudo o que uma corriqueira agenda pode fazer.
 
 ## Objetivo
 
@@ -28,8 +27,10 @@ Desenvolver uma aplicação que auxilie na organização das tarefas diárias de
 
 ## Wireframe das telas
 
-Lorem ipsum
+![image](https://user-images.githubusercontent.com/42824985/160310681-db791923-3d57-4f9f-a3b0-861c064e810c.png)
+
+![image](https://user-images.githubusercontent.com/42824985/160310691-60e7310f-1ec7-43ae-96f2-bdac1a6a9cb2.png)
 
 ## Arquitetura
 
-Lorem ipsum
+Para a implementação da aplicação será usado o Spring Boot, um framework do Java para desenvolvimento web que usa o padrão MVC (Model-View-Controller).
