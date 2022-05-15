@@ -86,4 +86,12 @@ public class Tarefa {
     public void setPrioridade(Prioridade prioridade) {
         this.prioridade = prioridade;
     }
+
+    public List<Tag> getTags() {
+        return tags;
+    }
+
+    public void setTags(List<Tag> tags) {
+        this.tags = tags;
+    }
 }

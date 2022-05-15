@@ -31,6 +31,7 @@ CREATE TABLE subtarefa (
 );
 
 CREATE TABLE tag (
+    id BIGINT NOT NULL,
     nome VARCHAR(256) NOT NULL,
     cor VARCHAR(6),
 

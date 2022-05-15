@@ -7,8 +7,8 @@ import javax.persistence.*;
 @Entity
 public class Subtarefa {
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "subtareda_id_generator")
-    @SequenceGenerator(name = "subtareda_id_generator", sequenceName = "subtareda_id_sequence", allocationSize = 1)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "subtarefa_id_generator")
+    @SequenceGenerator(name = "subtarefa_id_generator", sequenceName = "subtarefa_id_sequence", allocationSize = 1)
     @Column(name = "id", nullable = false)
     private Long id;
 
