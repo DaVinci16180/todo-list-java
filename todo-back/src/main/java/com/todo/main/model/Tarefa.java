@@ -1,8 +1,10 @@
 package com.todo.main.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.todo.main.enums.Prioridade;
 
 import javax.persistence.*;
+import java.util.ArrayList;
 import java.util.List;
 
 @Entity
@@ -13,15 +15,16 @@ public class Tarefa {
     @Column(name = "id", nullable = false)
     private Long id;
 
+    @JsonIgnore
     @ManyToOne
     @JoinColumn(name = "lista_de_tarefas_id")
     private ListaDeTarefas listaDeTarefas;
 
     @OneToMany(mappedBy = "tarefa")
-    private List<Subtarefa> subtarefas;
+    private List<Subtarefa> subtarefas = new ArrayList<>();
 
-    @OneToMany
-    private List<Tag> tags;
+    @OneToMany(mappedBy = "tarefa")
+    private List<Tag> tags = new ArrayList<>();
 
     private String nome;
     private boolean concluido = false;

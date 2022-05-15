@@ -1,7 +1,7 @@
 CREATE TABLE lista_de_tarefas (
     id BIGINT PRIMARY KEY,
     nome VARCHAR(256) NOT NULL ,
-    createdAt TIMESTAMP DEFAULT now()
+    created_at TIMESTAMP DEFAULT now()
 );
 
 CREATE TABLE tarefa (

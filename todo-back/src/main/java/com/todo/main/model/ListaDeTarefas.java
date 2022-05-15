@@ -1,10 +1,14 @@
 package com.todo.main.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.*;
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.List;
 
 @Entity
+@Table(name = "lista_de_tarefas")
 public class ListaDeTarefas {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "lista_de_tarefas_id_generator")
@@ -16,7 +20,7 @@ public class ListaDeTarefas {
     private LocalDateTime createdAt = LocalDateTime.now();
 
     @OneToMany(mappedBy = "listaDeTarefas")
-    private List<Tarefa> tarefas;
+    private List<Tarefa> tarefas = new ArrayList<>();
 
 
     public Long getId() {
